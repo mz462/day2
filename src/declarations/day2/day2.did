@@ -1,0 +1,3 @@
+service : {
+  nat8_to_nat: (nat8) -> (nat);
+}
