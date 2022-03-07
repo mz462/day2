@@ -1,4 +1,7 @@
 export const idlFactory = ({ IDL }) => {
-  return IDL.Service({ 'nat8_to_nat' : IDL.Func([IDL.Nat8], [IDL.Nat], []) });
+  return IDL.Service({
+    'bubble_sort' : IDL.Func([IDL.Vec(IDL.Nat)], [IDL.Vec(IDL.Nat)], []),
+    'size_in_bytes' : IDL.Func([IDL.Text], [IDL.Nat], []),
+  });
 };
 export const init = ({ IDL }) => { return []; };

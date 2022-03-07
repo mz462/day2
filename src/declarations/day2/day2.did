@@ -1,3 +1,4 @@
 service : {
-  nat8_to_nat: (nat8) -> (nat);
+  bubble_sort: (vec nat) -> (vec nat);
+  size_in_bytes: (text) -> (nat);
 }
